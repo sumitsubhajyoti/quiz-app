@@ -1,0 +1,62 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.quiz-app-container{
+
+    width:100vw;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.quiz-app{
+    box-shadow: 1px 1px 10px 1px grey;
+    width:500px;
+    min-height:300px;
+    padding:30px 40px;
+    background-color: aqua;
+}
+
+#form{
+    margin-top:40px;
+    text-align:left ;
+}
+
+input[type="submit"]{
+    margin-top:30px;
+    margin-left: 20px;
+    padding:10px;
+    background-color: blueviolet;
+    color:white;
+    border-radius: 10px;
+}
+
+.result{
+    width:90%;
+    min-height:200px;
+    margin-top: 40px;
+    background-color: skyblue;
+    padding:30px;
+    
+}
+
+.display{
+    display: none;
+}
+
+.play-btn{
+margin-top:40px;
+margin-left:120px;
+padding:10px;
+background-color: aquamarine;
+color:black;
+border-radius: 10px;
+}
+
